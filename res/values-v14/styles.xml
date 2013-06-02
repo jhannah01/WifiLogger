@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppBaseTheme" parent="android:Theme.Holo"></style>
+     <style name="Text.Subtitle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/text_subtitle</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

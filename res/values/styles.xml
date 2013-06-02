@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppBaseTheme" parent="android:Theme"></style>
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="Text.Label" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/text_label</item>
+    </style>
+    
+    <style name="Text.Label.Alt" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_label_alt</item>
+    </style>
+    
+    <style name="Text.Title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_title</item>
+    </style>
+    
+    <style name="Text.Subtitle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/text_subtitle</item>
+    </style>
+    
+    <style name="Text.Heading" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">@color/text_title</item>
+    </style>
+    
+    <style name="Text.Heading.Alt" parent="Text.Heading">
+        <item name="android:textColor">@color/text_subtitle</item>
+    </style>
+    
+    <color name="text_label">#437DD4</color>
+    <color name="text_label_alt">#BBCEF1</color>
+    <color name="text_title">#FF6400</color>
+    <color name="text_subtitle">#C4D2E7</color>
+    <color name="list_item_background">#242C38</color>
+    <color name="list_item_background_alt">#0A1423</color>
+    <color name="list_header_background">#0C0C13</color>
+</resources>

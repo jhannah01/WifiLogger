@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_header_general">General</string>
+    
+    <string name="pref_title_service_uri">Service URI</string>
+    <string name="pref_default_service_uri">http://172.16.100.6:7654/upload</string>
+    
+</resources>

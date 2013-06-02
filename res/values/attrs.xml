@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SignalGraph">
+	    <attr name="lineWidth" format="float" />
+	    <attr name="lineColor" format="integer" />
+	    <attr name="fillColor" format="integer" />
+	    <attr name="backgroundColor" format="integer" />
+	    <attr name="gridColor" format="integer" />
+	    <attr name="gridWidth" format="float" />
+	    <attr name="valuesMargin" format="float" />
+	    <attr name="title" format="string" />
+    </declare-styleable>
+</resources>

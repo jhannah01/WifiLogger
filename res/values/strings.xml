@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WifiLogger</string>
+    <string name="label_overview">Overview:</string>
+    <string name="filler_count">##</string>
+    <string name="label_networks">Networks:</string>
+    <string name="label_locations">Locations:</string>
+    <string name="label_stats">Stats:</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
+    <string name="label_toggle_logger">Toggle Logging</string>
+    <string name="label_refresh_stats">Refresh Stats</string>
+    <string name="filler_bssid">de:ad:be:3f:f0:0f</string>
+    <string name="filler_ssid">mySSID</string>
+    <string name="filler_frequency">2600 MHz</string>
+    <string name="filler_capabilities">WPA2, WPA, WEP</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_capabilities">Capabilities:</string>
+    <string name="label_frequency">Frequency:</string>
+    <string name="filler_level">-78 dBm</string>
+    <string name="filler_timestamp">Sun May 4th 2013 06:57am</string>
+    <string name="label_ssid">SSID:</string>
+    <string name="label_bssid">BSSID:</string>
+    <string name="menu_graphs">Graphs</string>
+    <string name="label_toggle_locations">Limit Locations:</string>
+    <string name="label_username">Username:</string>
+    <string name="label_password">Password:</string>
+    <string name="label_login">Login</string>
+    <string name="label_register">Register</string>
+    <string name="service_uri">http://172.16.100.6:7654</string>
+    <string name="filler_title">Graph Title</string>
+    <string name="label_last_seen">Last Seen:</string>
+    <string name="menu_upload_data">Upload Data</string>
+    <string name="label_no_usb_device">No USB device found</string>
+    <string name="label_usb_device">USB Device</string>
+    <string name="filler_usb_device">USB device</string>
+    <string name="label_capture">Capture</string>
+    <string name="label_average_level">Average Level:</string>
+    <string name="label_count">Scan Entries:</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add Graph widget</string>
+    <string name="label_graph">Signal Graph</string>
+    <string name="label_wiglewifi">WigleWifi</string>
+    <string name="label_wardrive">Wardrive</string>
+    <string name="label_source">Source:</string>
+    <string name="label_results">Results:</string>
+    <string name="label_import">Import</string>
+    <string name="menu_import_data">Import Data</string>
+    <string name="menu_overview">Overview</string>
+    <string name="title_activity_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="filler_empty">No Network Selected...</string>
+
+</resources>

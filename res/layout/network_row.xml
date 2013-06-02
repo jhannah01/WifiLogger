@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:paddingLeft="30dp" >
+
+    <TextView
+        android:id="@+id/text_network_row_ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/filler_ssid"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@style/Text.Title" />
+
+    <TextView
+        android:id="@+id/text_network_row_bssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_network_row_ssid"
+        android:layout_marginLeft="15dp"
+        android:text="@string/filler_bssid"
+        android:textAppearance="@style/Text.Subtitle" />
+    
+    <TextView
+        android:id="@+id/label_network_row_lastseen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/text_network_row_lastseen"
+        android:text="@string/label_last_seen"
+        android:textAppearance="@style/Text.Label"/>
+    
+    <TextView
+        android:id="@+id/text_network_row_lastseen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/filler_timestamp"/>
+
+    <TextView
+        android:id="@+id/label_network_row_locations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_network_row_locations"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/text_network_row_locations"
+        android:text="@string/label_locations"
+        android:textAppearance="@style/Text.Label" />
+
+    <TextView
+        android:id="@+id/text_network_row_locations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text_network_row_lastseen"
+        android:text="@string/filler_count" />
+    
+</RelativeLayout>

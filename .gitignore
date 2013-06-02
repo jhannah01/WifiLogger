@@ -1,0 +1,35 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration files (sdk path, etc)
+local.properties
+res/values/local_strings.xml
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# personal settings
+lint.xml
+
+# VIM swap files
+.*.sw[po]
+_*.sw[po]
+
+# Old source files
+old/
+
+# Local files
+local/
